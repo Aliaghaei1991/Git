@@ -11,6 +11,12 @@ namespace Test_git
         static void Main(string[] args)
         {
             int a = 1;
+
+            int b = 800;
+
+            Console.WriteLine((a * b).ToString());
+
+            Console.ReadKey();
         }
 
 

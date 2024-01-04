@@ -21,7 +21,7 @@ namespace Test_git
 
            for(int i = n; i >=1; i--)
             {
-                sumf *= i;
+                sumf *= i;//در هر مرحله جمع مرحله قبل در این مرحله ضرب میشود
             }
 
 

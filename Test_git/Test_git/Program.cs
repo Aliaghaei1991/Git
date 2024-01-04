@@ -10,15 +10,14 @@ namespace Test_git
     {
         static void Main(string[] args)
         {
-            int a = 1;
 
-            int b = 800;
+            //New Value = number - (1/100) * percent
 
-            Console.WriteLine((a * b).ToString());
+            string sum = ((5928000) - (1 / 100) * 9).ToString();
+
+            
 
             Console.ReadKey();
         }
-
-
     }
 }
